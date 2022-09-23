@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "${version}",
+
+  "name": "Calamity",
+  "description": "A once peaceful world is experiencing calamity. Can you come out on top? This mod currently adds 3 items, 1 weapon and 4 armor pieces. The name and idea for the mod is based off of the Terraria Mod Calamity, go check it out on reddit r/CalamityMod!",
+  "authors": [
+    "Serane"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.serane.calamity.calamity"
+    ],
+    "client": [
+      "net.serane.calamity.calamityclient"
+    ]
+  },
+  "mixins": [
+    "test.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

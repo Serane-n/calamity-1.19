@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "calamity:damaged_livid_dagger"
+    },
+    "E": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "pattern": [
+    "GNG",
+    "NDN",
+    "GEG"
+  ],
+  "result": {
+    "item": "calamity:livid_dagger"
+  }
+}

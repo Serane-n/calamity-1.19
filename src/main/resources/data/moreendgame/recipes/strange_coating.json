@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "calamity:charred_gold"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "D": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "GNG",
+    "NDN",
+    "GDG"
+  ],
+  "result": {
+    "item": "calamity:strange_coating"
+  }
+}

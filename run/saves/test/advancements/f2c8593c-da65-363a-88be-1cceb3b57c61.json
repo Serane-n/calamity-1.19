@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2022-07-31 14:37:21 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-07-31 14:37:21 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3105
+}
